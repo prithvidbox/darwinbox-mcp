@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server for interacting with the Darwinbox HRMS API. This server provides tools for managing employee data, attendance, and leave management through a standardized interface.
 
+## Demo
+
+![Demo](media/demo.gif)
+
 ## Features
 
 ### Core Tools
