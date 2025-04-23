@@ -113,61 +113,6 @@ npm run build
 }
 ```
 
-## Usage
-
-### Core Tools
-
-1. Get Employee Details
-```json
-{
-  "employee_ids": ["A123", "A124"],
-  // or
-  "last_modified": "22-11-2019 12:00:00",
-  // or
-  "employee_no": "emp_145"
-}
-```
-
-2. Update Employee
-```json
-{
-  "employee_data": {
-    "Email/Employee ID": "CAN598",
-    "Firstname": "John",
-    "Lastname": "Doe",
-    // ... other fields
-  }
-}
-```
-
-### Time Management Tools
-
-1. Get Monthly Attendance
-```json
-{
-  "emp_number_list": ["1013"],
-  "from_date": "2022-02-01",
-  "to_date": "2022-02-28",
-  "month": "2022-02"
-}
-```
-
-2. Record Attendance Punches
-```json
-{
-  "attendance": {
-    "PRANAV1": [
-      {
-        "id": "1",
-        "timestamp": "2025-01-17 09:00:00",
-        "machineid": "101",
-        "status": "1"
-      }
-    ]
-  }
-}
-```
-
 ## Authentication
 
 The server uses OAuth 2.0 for authentication. It automatically handles:
