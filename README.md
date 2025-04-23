@@ -39,7 +39,7 @@ A Model Context Protocol (MCP) server for interacting with the Darwinbox HRMS AP
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/prithvidbox/darwinbox-mcp
 cd darwinbox-server
 ```
 
